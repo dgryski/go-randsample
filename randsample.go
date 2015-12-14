@@ -29,8 +29,8 @@ func Sample(N, k int) []int {
 		} else {
 			indexI = i
 		}
-		me[i] = indexI
-		me[j] = indexJ
+		me[i] = indexJ
+		me[j] = indexI
 		output = append(output, indexJ)
 	}
 
